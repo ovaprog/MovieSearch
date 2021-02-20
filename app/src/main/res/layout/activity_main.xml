@@ -20,34 +20,44 @@
         android:background="@drawable/corner_background" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button" />
+            android:textColor="@color/white"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/btn_menu" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_favorites"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button" />
+            android:textColor="@color/white"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/btn_favorites" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_watch_later"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button" />
+            android:textColor="@color/white"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/btn_watch_later" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button_collections"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button" />
+            android:textColor="@color/white"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/btn_collections" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button_settings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button" />
+            android:textColor="@color/white"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="@string/btn_settings" />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
